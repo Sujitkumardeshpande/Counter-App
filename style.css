@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: #36cef4;
+  padding-top: 20px;
+  border-radius: 10%;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.counter-preview {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 1rem;
+}
+#allBtns {
+  text-align: center;
+}
+.decrement {
+  background-color: #4caf50;
+  text-align: center;
+}
+
+.reset {
+  background-color: #f44336;
+}
+
+.increment {
+  background-color: #2196f3;
+}
